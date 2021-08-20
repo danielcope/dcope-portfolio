@@ -1,15 +1,26 @@
-import react from 'react'
-import './App.css';
+import React from "react";
+import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
+import Nav from "./components/Nav";
+import Project from "./components/Projects";
+import Stack from "./components/Stack";
+import Landing from "./components/Landing";
 
-function App() {
+import "./App.css";
+import Background from "./components/Background";
+
+const App = () => {
   return (
-    <div className="app">
-      
-      
-
-
-    </div>
+    <section className="app">
+      <Background />
+      <Nav />
+      <Landing />
+      <AboutMe />
+      <Stack />
+      <Project />
+      <Contact />
+    </section>
   );
-}
+};
 
 export default App;

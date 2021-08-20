@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
-
   return (
-    <div></div>
+    <section className="contact" id="contact">
+      Contact
+    </section>
+  );
+};
 
-)
-}
-
-export default Contact
+export default Contact;

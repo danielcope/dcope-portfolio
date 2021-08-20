@@ -1,6 +1,185 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+h1 {
+  color: rgb(216, 216, 216);
+}
+
+ul {
+  list-style-type: none;
+  color: rgb(216, 216, 216);
+}
+
+a {
+  color: rgb(216, 216, 216);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(216, 216, 216);
+  border-bottom: 1px solid rgb(216, 216, 216);
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "BalooTammudu2-Regular";
+  src: local("BalooTammundu2-Regular"),
+    url("./fonts/BalooTammudu2-Regular.ttf") format("truetype");
+}
+
+.text {
+  font-family: BalooTammudu2-Regular;
+}
+
+.ham-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+}
+
+.ham {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.ham-line {
+  border: 1.5px solid;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1px;
+  z-index: 2;
+  margin-bottom: 6px;
+}
+
+.nav {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-opened {
+  background: rgb(70, 56, 95, 0.9);
+  position: fixed;
+  right: 0;
+  transition: opacity 1s ease-in;
+  height: 10vh;
+  width: 40%;
+}
+
+.nav-closed {
+  position: fixed;
+  top: -500px;
+  transition: opacity 2s, top 2s ease-in;
+}
+
+.nav-ul {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-li {
+  font-size: 24px;
+}
+
+.background {
+  background-color: rgb(70, 56, 95);
+  height: 100%;
+  position: fixed;
+  z-index: -2;
+  width: 100%;
+}
+
+.big-circle {
+  height: 1500px;
+  width: 1500px;
+  border-radius: 50%;
+  position: fixed;
+  left: -800px;
+  top: -300px;
+  z-index: -1;
+  background-color: rgba(212, 211, 157, 0.025);
+}
+
+.little-circle {
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  position: fixed;
+  right: -150px;
+  top: 450px;
+  z-index: -1;
+  background-color: rgba(212, 211, 157, 0.025);
+}
+
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-title {
+  border-bottom: 3px solid rgb(216, 216, 216);
+  font-size: 55px;
+  position: relative;
+  right: 250px;
+  bottom: 50px;
+  padding: 0px;
+}
+
+.landing-subtitle {
+  font-size: 28px;
+  color: rgb(216, 216, 216);
+  position: relative;
+  right: 250px;
+}
+
+.react-logo {
+  height: 50px;
+}
+
+.about-me {
+  height: 100vh;
+}
+
+.stack {
+  height: 100vh;
+}
+
+.projects {
+  height: 100vh;
+}
+
+.mini {
+  height: 100vh;
+}
+
+.contact {
+  height: 100vh;
+}
