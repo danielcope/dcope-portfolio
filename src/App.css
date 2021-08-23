@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "BalooTammudu2-Regular";
+  src: local("BalooTammundu2-Regular"),
+    url("./fonts/BalooTammudu2-Regular.ttf") format("truetype");
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,30 +18,83 @@ h1 {
   color: rgb(216, 216, 216);
 }
 
+h2 {
+  font-size: 36px;
+}
+
 ul {
   list-style-type: none;
   color: rgb(216, 216, 216);
 }
 
+/* underline animation */
+
 a {
+  position: relative;
   color: rgb(216, 216, 216);
   text-decoration: none;
 }
 
-a:active {
+a:hover {
   color: rgb(216, 216, 216);
-  border-bottom: 1px solid rgb(216, 216, 216);
-  text-decoration: none;
 }
 
-@font-face {
-  font-family: "BalooTammudu2-Regular";
-  src: local("BalooTammundu2-Regular"),
-    url("./fonts/BalooTammudu2-Regular.ttf") format("truetype");
+a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(216, 216, 216);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
+/* underline animation */
 
 .text {
   font-family: BalooTammudu2-Regular;
+  color: rgb(216, 216, 216);
+}
+
+p {
+  font-size: 26px;
+}
+
+.background {
+  background-color: rgb(38, 73, 112);
+  height: 500vh;
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+}
+
+.big-circle {
+  height: 1500px;
+  width: 1500px;
+  border-radius: 50%;
+  position: fixed;
+  left: -800px;
+  top: -300px;
+  z-index: -1;
+  background-color: rgba(212, 211, 157, 0.025);
+}
+
+.little-circle {
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  position: fixed;
+  right: -150px;
+  top: 450px;
+  z-index: -1;
+  background-color: rgba(212, 211, 157, 0.025);
 }
 
 .ham-container {
@@ -73,7 +132,7 @@ a:active {
 }
 
 .nav-opened {
-  background: rgb(70, 56, 95, 0.9);
+  background: rgb(38, 73, 112);
   position: fixed;
   right: 0;
   transition: opacity 1s ease-in;
@@ -99,36 +158,6 @@ a:active {
   font-size: 24px;
 }
 
-.background {
-  background-color: rgb(70, 56, 95);
-  height: 100%;
-  position: fixed;
-  z-index: -2;
-  width: 100%;
-}
-
-.big-circle {
-  height: 1500px;
-  width: 1500px;
-  border-radius: 50%;
-  position: fixed;
-  left: -800px;
-  top: -300px;
-  z-index: -1;
-  background-color: rgba(212, 211, 157, 0.025);
-}
-
-.little-circle {
-  height: 800px;
-  width: 800px;
-  border-radius: 50%;
-  position: fixed;
-  right: -150px;
-  top: 450px;
-  z-index: -1;
-  background-color: rgba(212, 211, 157, 0.025);
-}
-
 .landing {
   height: 100vh;
   display: flex;
@@ -140,6 +169,7 @@ a:active {
 .title-container {
   width: 80%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -147,29 +177,104 @@ a:active {
 .landing-title {
   border-bottom: 3px solid rgb(216, 216, 216);
   font-size: 55px;
-  position: relative;
-  right: 250px;
-  bottom: 50px;
-  padding: 0px;
 }
 
 .landing-subtitle {
   font-size: 28px;
   color: rgb(216, 216, 216);
-  position: relative;
-  right: 250px;
+  margin-top: 25px;
+}
+
+.about-me {
+  height: 100vh;
+  padding: 150px;
+}
+
+.about-me-title {
+  text-decoration: underline;
+  font-size: 45px;
+  text-align: center;
+  height: 150px;
+}
+
+.about-me-p-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-me-p {
+  width: 40%;
+}
+
+.stack {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stacks {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.stack-titles {
+  width: 87%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.technologies {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  background-color: rgba(150, 142, 142, 0.356);
+  border-radius: 15px;
+}
+
+.additions {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(150, 142, 142, 0.356);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 45px;
+  padding-left: 75px;
+}
+
+.tech-list {
+  font-size: 25px;
 }
 
 .react-logo {
   height: 50px;
 }
 
-.about-me {
-  height: 100vh;
+.javascript-logo {
+  height: 60px;
 }
 
-.stack {
-  height: 100vh;
+.logo-text {
+  font-size: 30px;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.logo-line {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  width: 45%;
 }
 
 .projects {
