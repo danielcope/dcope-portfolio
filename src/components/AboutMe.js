@@ -15,8 +15,8 @@ const AboutMe = () => {
           <p className="text about-me-p">
             I am an adventurer.<br></br>
             <br></br>I'm big fan of rock climbing. It's what I do when I have
-            free time. I enjoy riding motorcycles and spending time playing
-            video games.
+            free time. I enjoy riding motorcycles and spending time with my
+            family.
           </p>
         </section>
       </section>

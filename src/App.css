@@ -132,7 +132,7 @@ p {
 }
 
 .nav-opened {
-  background: rgb(38, 73, 112);
+  background: transparent;
   position: fixed;
   right: 0;
   transition: opacity 1s ease-in;
@@ -279,10 +279,64 @@ p {
 
 .projects {
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.mini {
-  height: 100vh;
+.big-projects {
+  width: 50%;
+  height: 100%;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-container {
+  height: 40%;
+  width: 90%;
+  padding: 20px;
+  background-color: rgba(150, 142, 142, 0.356);
+  border-radius: 15px;
+}
+
+.project-description {
+  font-size: 18px;
+  height: 20%;
+}
+
+.project-link {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-link:hover {
+  cursor: pointer;
+}
+
+.big-project-title {
+  height: 20%;
+}
+
+.website-screen {
+  width: 45%;
+}
+
+.mini-projects {
+  width: 45%;
+  height: 75%;
+  background-color: rgba(150, 142, 142, 0.356);
+  border-radius: 15px;
+}
+
+.mini-title {
+  font-size: 36px;
+  padding-left: 35px;
+  padding-top: 25px;
 }
 
 .contact {
