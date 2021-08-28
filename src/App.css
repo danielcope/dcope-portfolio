@@ -69,7 +69,7 @@ p {
 
 .background {
   background-color: rgb(38, 73, 112);
-  height: 500vh;
+  height: 410vh;
   position: absolute;
   z-index: -2;
   width: 100%;
@@ -331,14 +331,62 @@ p {
   height: 75%;
   background-color: rgba(150, 142, 142, 0.356);
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mini-title {
   font-size: 36px;
-  padding-left: 35px;
   padding-top: 25px;
 }
 
+.mini-project-section {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mini-container {
+  height: 45%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.docs-img {
+  width: 45%;
+}
+
 .contact {
-  height: 100vh;
+  height: 10vh;
+  background-color: rgba(150, 142, 142, 0.356);
+}
+
+.contact-links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.each-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.contact-text {
+  padding-top: 5px;
 }

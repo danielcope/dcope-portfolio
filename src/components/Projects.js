@@ -2,6 +2,8 @@ import React from "react";
 
 import Simplop from "../imgs/simplop.png";
 import AP from "../imgs/adventurepack.png";
+import Docs from "../imgs/docs.png";
+import NoDB from "../imgs/nodb.png";
 
 const Projects = () => {
   return (
@@ -11,7 +13,7 @@ const Projects = () => {
           <h2 className="text big-project-title">Simplop</h2>
           <p className="text project-description">
             A simple full-stack web application for parents with potty training
-            children.
+            children. Made with React.js, Node.js, and PostgreSQL.
           </p>
           <div className="project-link">
             <img
@@ -29,8 +31,8 @@ const Projects = () => {
             <h2 className="text">Adventure Pack</h2>
           </a>
           <p className="text project-description">
-            A simple full-stack web application for parents with potty training
-            children.
+            A full-stack React application. Technologies used: Node.js, Express,
+            PostgreSQL, React Redux, React Router, Bcrypt, Axios.
           </p>
           <div className="project-link">
             <img
@@ -47,6 +49,22 @@ const Projects = () => {
 
       <section className="mini-projects">
         <h1 className="text mini-title">Mini-projects</h1>
+        <section className="mini-project-section">
+          <section className="mini-container">
+            <h3 className="text">Google Documents Clone</h3>
+            <img src={Docs} alt="google docs clone" className="docs-img" />
+            <a href="https://github.com/danielcope/docs-clone">
+              <span>Click to view GitHub repo &#8594;</span>
+            </a>
+          </section>
+          <section className="mini-container">
+            <h3 className="text">DnD Characters</h3>
+            <img src={NoDB} alt="DnD character viewer" className="docs-img" />
+            <a href="https://github.com/danielcope/nodb-dnd-characters">
+              <span>Click to view GitHub repo &#8594;</span>
+            </a>
+          </section>
+        </section>
       </section>
     </section>
   );
