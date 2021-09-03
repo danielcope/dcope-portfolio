@@ -21,15 +21,17 @@ const Projects = () => {
               alt="Simplop Website"
               src={Simplop}
             />
-            <a href="https://simplop.com/">
+            <a
+              href="https://simplop.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <span>Click to view hosted project &#8594;</span>
             </a>
           </div>
         </section>
         <section className="project-container">
-          <a href="https://adventurequestlog.com/">
-            <h2 className="text">Adventure Pack</h2>
-          </a>
+          <h2 className="text">Adventure Pack</h2>
           <p className="text project-description">
             A full-stack React application. Technologies used: Node.js, Express,
             PostgreSQL, React Redux, React Router, Bcrypt, Axios.
@@ -40,7 +42,11 @@ const Projects = () => {
               alt="Adventure Pack Website"
               src={AP}
             />
-            <a href="https://adventurepack.com/">
+            <a
+              href="https://adventurepack.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <span>Click to view hosted project &#8594;</span>
             </a>
           </div>
@@ -53,14 +59,22 @@ const Projects = () => {
           <section className="mini-container">
             <h3 className="text">Google Documents Clone</h3>
             <img src={Docs} alt="google docs clone" className="docs-img" />
-            <a href="https://github.com/danielcope/docs-clone">
+            <a
+              href="https://github.com/danielcope/docs-clone"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <span>Click to view GitHub repo &#8594;</span>
             </a>
           </section>
           <section className="mini-container">
             <h3 className="text">DnD Characters</h3>
             <img src={NoDB} alt="DnD character viewer" className="docs-img" />
-            <a href="https://github.com/danielcope/nodb-dnd-characters">
+            <a
+              href="https://github.com/danielcope/nodb-dnd-characters"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <span>Click to view GitHub repo &#8594;</span>
             </a>
           </section>
