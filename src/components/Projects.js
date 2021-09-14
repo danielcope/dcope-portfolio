@@ -31,7 +31,7 @@ const Projects = () => {
           </div>
         </section>
         <section className="project-container">
-          <h2 className="text">Adventure Pack</h2>
+          <h2 className="text">Adventure Quest Log</h2>
           <p className="text project-description">
             A full-stack React application. Technologies used: Node.js, Express,
             PostgreSQL, React Redux, React Router, Bcrypt, Axios.
@@ -43,7 +43,7 @@ const Projects = () => {
               src={AP}
             />
             <a
-              href="https://adventurepack.com/"
+              href="https://adventurequestlog.com/"
               target="_blank"
               rel="noreferrer noopener"
             >
