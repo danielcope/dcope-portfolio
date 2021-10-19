@@ -1,37 +1,37 @@
 import React from "react";
 
-import Email from "../imgs/email.png";
-import linkedin from "../imgs/linkedin.png";
-import github from "../imgs/github.png";
+import Envelope from "./icons/Envelope";
+import LinkedInIcon from "./icons/LinkedInIcon";
+import GitHubIcon from "./icons/GitHubIcon";
 
 const Contact = () => {
   return (
     <section className="contact" id="contact">
       <section className="contact-links">
         <div className="each-contact">
-          <img src={Email} alt="email" className="contact-img" />
+          <Envelope />
           <span className="text contact-text">daniel.ash.cope@gmail.com</span>
         </div>
-        <a
-          href="https://www.linkedin.com/in/daniel-cope-60853213/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <div className="each-contact">
-            <img src={linkedin} alt="linkedin" className="contact-img" />
+        <div className="each-contact">
+          <LinkedInIcon />
+          <a
+            href="https://www.linkedin.com/in/daniel-cope-60853213/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <span className="text context-text">linkedin</span>
-          </div>
-        </a>
-        <a
-          href="https://github.com/danielcope"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <div className="each-contact">
-            <img src={github} alt="github" className="contact-img" />
+          </a>
+        </div>
+        <div className="each-contact">
+          <GitHubIcon />
+          <a
+            href="https://github.com/danielcope"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <span className="text contact-text">My GitHub</span>
-          </div>
-        </a>
+          </a>
+        </div>
       </section>
     </section>
   );

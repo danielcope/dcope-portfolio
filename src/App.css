@@ -27,12 +27,27 @@ ul {
   color: rgb(216, 216, 216);
 }
 
-/* underline animation */
+p {
+  font-size: 26px;
+}
+
+.text {
+  font-family: BalooTammudu2-Regular;
+  color: rgb(216, 216, 216);
+}
+
+/* #region underline animation */
 
 a {
   position: relative;
   color: rgb(216, 216, 216);
   text-decoration: none;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px 0 0;
+  padding: 10px 0 0 0;
 }
 
 a:hover {
@@ -56,17 +71,8 @@ a:hover::before {
   transform: scaleX(1);
 }
 
-/* underline animation */
-
-.text {
-  font-family: BalooTammudu2-Regular;
-  color: rgb(216, 216, 216);
-}
-
-p {
-  font-size: 26px;
-}
-
+/* #endregion underline animation */
+/* #region  Background */
 .background {
   background-color: rgb(38, 73, 112);
   height: 410vh;
@@ -96,7 +102,8 @@ p {
   z-index: -1;
   background-color: rgba(212, 211, 157, 0.025);
 }
-
+/* #endregion */
+/* #region Navigation */
 .nav {
   position: fixed;
   width: 100%;
@@ -128,12 +135,12 @@ p {
 }
 
 .nav-li {
-  font-size: 22px;
-  padding: 10px 25px 0 0;
+  font-size: 20px;
+  text-align: center;
 }
 
-/* scroll bar */
-
+/* #endregion */
+/* #region Scroll Bar  */
 ::-webkit-scrollbar {
   width: 18px;
 }
@@ -150,8 +157,9 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(24, 53, 87, 0.404);
 }
-/* END - scroll bar  */
 
+/* #endregion */
+/* #region  Landing View */
 .landing {
   height: 100vh;
   display: flex;
@@ -179,6 +187,8 @@ p {
   margin-top: 25px;
 }
 
+/* #endregion */
+/* #region  About Me */
 .about-me {
   height: 100vh;
   padding: 150px;
@@ -200,6 +210,8 @@ p {
   width: 40%;
 }
 
+/* #endregion */
+/* #region Stack View */
 .stack {
   height: 100vh;
   display: flex;
@@ -218,7 +230,6 @@ p {
 
 .stack-titles {
   width: 87%;
-
   display: flex;
   justify-content: space-between;
 }
@@ -230,14 +241,14 @@ p {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 60px;
-  background-color: rgba(150, 142, 142, 0.356);
+  background-color: rgba(7, 7, 7, 0.575);
   border-radius: 15px;
 }
 
 .additions {
   width: 25%;
   height: 100%;
-  background-color: rgba(150, 142, 142, 0.356);
+  background-color: rgba(7, 7, 7, 0.575);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -270,6 +281,8 @@ p {
   justify-content: center;
   width: 45%;
 }
+/* #endregion */
+/* #region  Projects */
 
 .projects {
   height: 100vh;
@@ -291,7 +304,7 @@ p {
   height: 40%;
   width: 90%;
   padding: 20px;
-  background-color: rgba(150, 142, 142, 0.356);
+  background-color: rgba(7, 7, 7, 0.575);
   border-radius: 15px;
 }
 
@@ -323,7 +336,7 @@ p {
 .mini-projects {
   width: 45%;
   height: 75%;
-  background-color: rgba(150, 142, 142, 0.356);
+  background-color: rgba(7, 7, 7, 0.575);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -357,9 +370,12 @@ p {
   width: 45%;
 }
 
+/* #endregion */
+/* #region Contact */
+
 .contact {
   height: 10vh;
-  background-color: rgba(150, 142, 142, 0.356);
+  background-color: rgba(7, 7, 7, 0.575);
 }
 
 .contact-links {
@@ -384,3 +400,28 @@ p {
 .contact-text {
   padding-top: 5px;
 }
+
+/* #endregion */
+
+/* #region  Icons */
+.envelope-icon {
+  font-size: 32px;
+  margin: 0 15px 0 0;
+  color: rgb(216, 216, 216);
+}
+
+.fab {
+  font-size: 32px;
+  color: rgb(216, 216, 216);
+  padding: 0 15px 0 0;
+}
+
+.fa-linkedin-in {
+  content: "\f0e1";
+}
+
+.fa-github {
+  content: "\f09b";
+}
+
+/* #endregion */
