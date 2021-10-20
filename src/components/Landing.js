@@ -2,7 +2,7 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <section className="landing">
+    <section className="landing" id="landing">
       <div className="title-container">
         <h1 className="text landing-title">Hi! My name is Daniel Cope.</h1>
 

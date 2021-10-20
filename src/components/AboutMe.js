@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <section className="about-me" id="me">
       <section>
-        <h2 className="text about-me-title">Who am I?</h2>
+        <h1 className="text about-me-title">Who am I?</h1>
         <section className="about-me-p-container">
           <p className="text about-me-p">
             I am a Fullstack Web Developer.<br></br>
