@@ -5,10 +5,10 @@ import Nav from "./components/Nav";
 import Project from "./components/Projects";
 import Stack from "./components/Stack";
 import Landing from "./components/Landing";
-import Top from "./components/icons/Top";
 
 import "./App.css";
 import Background from "./components/Background";
+import Separator from "./components/icons/Separator";
 
 const App = () => {
   return (
@@ -16,9 +16,11 @@ const App = () => {
       <Background />
       <Nav />
       <Landing />
+      <Separator />
       <AboutMe />
-      <Top />
+      <Separator />
       <Stack />
+      <Separator />
       <Project />
       <Contact />
     </section>

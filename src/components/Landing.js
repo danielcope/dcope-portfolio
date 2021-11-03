@@ -3,11 +3,11 @@ import React from "react";
 const Landing = () => {
   return (
     <section className="landing" id="landing">
-      <div className="title-container">
-        <h1 className="text landing-title">Hi! My name is Daniel Cope.</h1>
+      <section>
+        <h1>Hi! My name is Daniel Cope.</h1>
 
-        <span className="text landing-subtitle">Full-stack Web Developer.</span>
-      </div>
+        <h3>Full-stack Web Developer.</h3>
+      </section>
     </section>
   );
 };

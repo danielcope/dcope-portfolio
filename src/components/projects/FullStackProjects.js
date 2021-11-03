@@ -1,21 +1,19 @@
 import React from "react";
 
-import Separator from "../icons/Separator";
-
 import Simplop from "../../imgs/simplop.png";
 import AP from "../../imgs/adventurepack.png";
 
 const FullStackProjects = () => {
   return (
-    <section className="project-container fullstack-project-block">
+    <section>
       <section>
-        <h2 className="text big-project-title">Simplop</h2>
-        <p className="text project-description">
+        <h3>Simplop</h3>
+        <p>
           A simple full-stack web application for parents with potty training
           children. Made with React.js, Node.js, and PostgreSQL.
         </p>
-        <div className="project-link">
-          <img className="website-screen" alt="Simplop Website" src={Simplop} />
+        <img className="website-screen" alt="Simplop Website" src={Simplop} />
+        <div>
           <a
             href="https://simplop.com/"
             target="_blank"
@@ -25,19 +23,14 @@ const FullStackProjects = () => {
           </a>
         </div>
       </section>
-      <Separator />
       <section>
-        <h2 className="text">Adventure Quest Log</h2>
-        <p className="text project-description">
+        <h3>Adventure Quest Log</h3>
+        <p>
           A full-stack React application. Technologies used: Node.js, Express,
           PostgreSQL, React Redux, React Router, Bcrypt, Axios.
         </p>
-        <div className="project-link">
-          <img
-            className="website-screen"
-            alt="Adventure Pack Website"
-            src={AP}
-          />
+        <img className="website-screen" alt="Adventure Pack Website" src={AP} />
+        <div>
           <a
             href="https://adventurequestlog.com/"
             target="_blank"
