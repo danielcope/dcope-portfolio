@@ -1,5 +1,6 @@
 import React from "react";
 
+import Typewriter from "typewriter-effect";
 import Background from "./Background";
 
 const Landing = () => {
@@ -9,10 +10,22 @@ const Landing = () => {
         <Background />
       </div>
       <section>
-        <h1>I am Daniel Cope.</h1>
-
-        <h3>Full-stack Web Developer.</h3>
+        <h1>I am Daniel Cope!</h1>
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("<span>I am a backend developer</span>")
+              .pauseFor(300)
+              .deleteChars(17)
+              .typeString("<span>frontend developer</span>")
+              .pauseFor(300)
+              .deleteChars(18)
+              .typeString("<span>fullstack developer</span>")
+              .start();
+          }}
+        />
       </section>
+      <div className="photo"></div>
     </section>
   );
 };

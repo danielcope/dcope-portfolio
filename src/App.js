@@ -10,7 +10,6 @@ import Stack from "./components/Stack";
 import Landing from "./components/Landing";
 
 import "./App.css";
-import Separator from "./components/icons/Separator";
 
 class App extends React.Component {
   componentDidMount() {
