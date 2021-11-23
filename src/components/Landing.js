@@ -1,8 +1,13 @@
 import React from "react";
 
+import Background from "./Background";
+
 const Landing = () => {
   return (
     <section className="landing" id="landing">
+      <div className="particle-background">
+        <Background />
+      </div>
       <section>
         <h1>Hi! My name is Daniel Cope.</h1>
 

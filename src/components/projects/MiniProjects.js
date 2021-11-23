@@ -6,7 +6,7 @@ import NoDB from "../../imgs/nodb.png";
 const MiniProjects = () => {
   return (
     <section>
-      <section>
+      <section data-aos="fade-down">
         <h3>Google Documents Clone</h3>
         <img src={Docs} alt="google docs clone" className="docs-img" />
         <a
@@ -17,7 +17,7 @@ const MiniProjects = () => {
           <span>Click to view GitHub repo &#8594;</span>
         </a>
       </section>
-      <section>
+      <section data-aos="fade-down">
         <h3>DnD Characters</h3>
         <img src={NoDB} alt="DnD character viewer" className="docs-img" />
         <a

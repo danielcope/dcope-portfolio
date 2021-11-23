@@ -1,4 +1,7 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
@@ -7,24 +10,30 @@ import Stack from "./components/Stack";
 import Landing from "./components/Landing";
 
 import "./App.css";
-import Background from "./components/Background";
 import Separator from "./components/icons/Separator";
 
-const App = () => {
-  return (
-    <section className="app">
-      <Background />
-      <Nav />
-      <Landing />
-      <Separator />
-      <AboutMe />
-      <Separator />
-      <Stack />
-      <Separator />
-      <Project />
-      <Contact />
-    </section>
-  );
-};
+class App extends React.Component {
+  componentDidMount() {
+    AOS.init({
+      duration: 1000,
+    });
+  }
+
+  render() {
+    return (
+      <section className="app">
+        <Nav />
+        <Landing />
+        <Separator />
+        <AboutMe />
+        <Separator />
+        <Stack />
+        <Separator />
+        <Project />
+        <Contact />
+      </section>
+    );
+  }
+}
 
 export default App;

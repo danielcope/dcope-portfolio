@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dcope-portfolio/static/css/main.3a5dffc1.chunk.css",
-    "main.js": "/dcope-portfolio/static/js/main.3da0827c.chunk.js",
-    "main.js.map": "/dcope-portfolio/static/js/main.3da0827c.chunk.js.map",
+    "main.css": "/dcope-portfolio/static/css/main.3d9d76ac.chunk.css",
+    "main.js": "/dcope-portfolio/static/js/main.73fa5901.chunk.js",
+    "main.js.map": "/dcope-portfolio/static/js/main.73fa5901.chunk.js.map",
     "runtime-main.js": "/dcope-portfolio/static/js/runtime-main.a443fa15.js",
     "runtime-main.js.map": "/dcope-portfolio/static/js/runtime-main.a443fa15.js.map",
     "static/js/2.db804fa3.chunk.js": "/dcope-portfolio/static/js/2.db804fa3.chunk.js",
@@ -10,24 +10,23 @@
     "static/js/3.a957b94c.chunk.js": "/dcope-portfolio/static/js/3.a957b94c.chunk.js",
     "static/js/3.a957b94c.chunk.js.map": "/dcope-portfolio/static/js/3.a957b94c.chunk.js.map",
     "index.html": "/dcope-portfolio/index.html",
-    "static/css/main.3a5dffc1.chunk.css.map": "/dcope-portfolio/static/css/main.3a5dffc1.chunk.css.map",
+    "static/css/main.3d9d76ac.chunk.css.map": "/dcope-portfolio/static/css/main.3d9d76ac.chunk.css.map",
     "static/js/2.db804fa3.chunk.js.LICENSE.txt": "/dcope-portfolio/static/js/2.db804fa3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/dcope-portfolio/static/media/BalooTammudu2-Regular.1503266c.ttf",
     "static/media/CSSLogo.9a088dd1.png": "/dcope-portfolio/static/media/CSSLogo.9a088dd1.png",
-    "static/media/Daco_5903330.82ca96a0.png": "/dcope-portfolio/static/media/Daco_5903330.82ca96a0.png",
-    "static/media/HTMLLogo.413aea80.png": "/dcope-portfolio/static/media/HTMLLogo.413aea80.png",
     "static/media/JavaScriptLogo.26cd97a1.png": "/dcope-portfolio/static/media/JavaScriptLogo.26cd97a1.png",
     "static/media/MongoDB.c9f0a5e7.png": "/dcope-portfolio/static/media/MongoDB.c9f0a5e7.png",
     "static/media/Nodejs.e71346fe.png": "/dcope-portfolio/static/media/Nodejs.e71346fe.png",
     "static/media/PostgreSQL.1b9b2da8.png": "/dcope-portfolio/static/media/PostgreSQL.1b9b2da8.png",
     "static/media/adventurepack.c4dc3a1d.png": "/dcope-portfolio/static/media/adventurepack.c4dc3a1d.png",
     "static/media/nodb.3117f62f.png": "/dcope-portfolio/static/media/nodb.3117f62f.png",
+    "static/media/react.ef28a756.png": "/dcope-portfolio/static/media/react.ef28a756.png",
     "static/media/simplop.87b9d623.png": "/dcope-portfolio/static/media/simplop.87b9d623.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a443fa15.js",
     "static/js/2.db804fa3.chunk.js",
-    "static/css/main.3a5dffc1.chunk.css",
-    "static/js/main.3da0827c.chunk.js"
+    "static/css/main.3d9d76ac.chunk.css",
+    "static/js/main.73fa5901.chunk.js"
   ]
 }

@@ -3,10 +3,10 @@ import "../App.css";
 
 const AboutMe = () => {
   return (
-    <section className="about-me" id="me">
+    <section className="about-me" id="me" data-aos="fade-up">
       <section>
         <h2>Who am I?</h2>
-        <section className="about-me-p-container">
+        <section data-aos="fade-up" className="about-me-p-container">
           <p>
             I am a Fullstack Web Developer.<br></br>
             <br></br> I have a passion for understanding the little details. I

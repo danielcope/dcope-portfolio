@@ -6,7 +6,7 @@ import AP from "../../imgs/adventurepack.png";
 const FullStackProjects = () => {
   return (
     <section>
-      <section>
+      <section data-aos="fade-down">
         <h3>Simplop</h3>
         <p>
           A simple full-stack web application for parents with potty training
@@ -23,7 +23,7 @@ const FullStackProjects = () => {
           </a>
         </div>
       </section>
-      <section>
+      <section data-aos="fade-down">
         <h3>Adventure Quest Log</h3>
         <p>
           A full-stack React application. Technologies used: Node.js, Express,
