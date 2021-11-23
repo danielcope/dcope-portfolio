@@ -58,20 +58,48 @@ const Stack = () => {
         >
           <h3>Extras</h3>
           <ul>
-            <li data-aos="fade-right">GitHub</li>
-            <li data-aos="fade-right">Git</li>
-            <li data-aos="fade-right">React Native</li>
-            <li data-aos="fade-right">Expo CLI</li>
-            <li data-aos="fade-right">React Hooks</li>
-            <li data-aos="fade-right">React Redux</li>
-            <li data-aos="fade-right">React Router</li>
-            <li data-aos="fade-right">Express</li>
-            <li data-aos="fade-right">Bcrypt</li>
-            <li data-aos="fade-right">Dotenv</li>
-            <li data-aos="fade-right">Massive</li>
-            <li data-aos="fade-right">Socket.io</li>
-            <li data-aos="fade-right">Quill</li>
-            <li data-aos="fade-right">Axios</li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              GitHub
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Git
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              React Native
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Expo CLI
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              React Hooks
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              React Redux
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              React Router
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Express
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Bcrypt
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Dotenv
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Massive
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Socket.io
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Quill
+            </li>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              Axios
+            </li>
           </ul>
         </section>
       </section>

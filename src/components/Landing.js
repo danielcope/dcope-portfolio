@@ -9,7 +9,7 @@ const Landing = () => {
         <Background />
       </div>
       <section>
-        <h1>Hi! My name is Daniel Cope.</h1>
+        <h1>I am Daniel Cope.</h1>
 
         <h3>Full-stack Web Developer.</h3>
       </section>

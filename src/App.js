@@ -24,11 +24,8 @@ class App extends React.Component {
       <section className="app">
         <Nav />
         <Landing />
-        <Separator />
         <AboutMe />
-        <Separator />
         <Stack />
-        <Separator />
         <Project />
         <Contact />
       </section>
