@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/dcope-portfolio/static/css/main.3d9d76ac.chunk.css",
-    "main.js": "/dcope-portfolio/static/js/main.73fa5901.chunk.js",
-    "main.js.map": "/dcope-portfolio/static/js/main.73fa5901.chunk.js.map",
-    "runtime-main.js": "/dcope-portfolio/static/js/runtime-main.a443fa15.js",
-    "runtime-main.js.map": "/dcope-portfolio/static/js/runtime-main.a443fa15.js.map",
-    "static/js/2.db804fa3.chunk.js": "/dcope-portfolio/static/js/2.db804fa3.chunk.js",
-    "static/js/2.db804fa3.chunk.js.map": "/dcope-portfolio/static/js/2.db804fa3.chunk.js.map",
-    "static/js/3.a957b94c.chunk.js": "/dcope-portfolio/static/js/3.a957b94c.chunk.js",
-    "static/js/3.a957b94c.chunk.js.map": "/dcope-portfolio/static/js/3.a957b94c.chunk.js.map",
+    "main.css": "/dcope-portfolio/static/css/main.1dcf9c4a.chunk.css",
+    "main.js": "/dcope-portfolio/static/js/main.a701f591.chunk.js",
+    "main.js.map": "/dcope-portfolio/static/js/main.a701f591.chunk.js.map",
+    "runtime-main.js": "/dcope-portfolio/static/js/runtime-main.b8d17e99.js",
+    "runtime-main.js.map": "/dcope-portfolio/static/js/runtime-main.b8d17e99.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/dcope-portfolio/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.b989a351.chunk.js": "/dcope-portfolio/static/js/2.b989a351.chunk.js",
+    "static/js/2.b989a351.chunk.js.map": "/dcope-portfolio/static/js/2.b989a351.chunk.js.map",
+    "static/js/3.3d77c669.chunk.js": "/dcope-portfolio/static/js/3.3d77c669.chunk.js",
+    "static/js/3.3d77c669.chunk.js.map": "/dcope-portfolio/static/js/3.3d77c669.chunk.js.map",
     "index.html": "/dcope-portfolio/index.html",
-    "static/css/main.3d9d76ac.chunk.css.map": "/dcope-portfolio/static/css/main.3d9d76ac.chunk.css.map",
-    "static/js/2.db804fa3.chunk.js.LICENSE.txt": "/dcope-portfolio/static/js/2.db804fa3.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/dcope-portfolio/static/media/BalooTammudu2-Regular.1503266c.ttf",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/dcope-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.1dcf9c4a.chunk.css.map": "/dcope-portfolio/static/css/main.1dcf9c4a.chunk.css.map",
+    "static/js/2.b989a351.chunk.js.LICENSE.txt": "/dcope-portfolio/static/js/2.b989a351.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dcope-portfolio/static/media/me.bf0e0f1e.jpg",
     "static/media/CSSLogo.9a088dd1.png": "/dcope-portfolio/static/media/CSSLogo.9a088dd1.png",
     "static/media/JavaScriptLogo.26cd97a1.png": "/dcope-portfolio/static/media/JavaScriptLogo.26cd97a1.png",
     "static/media/MongoDB.c9f0a5e7.png": "/dcope-portfolio/static/media/MongoDB.c9f0a5e7.png",
@@ -24,9 +26,10 @@
     "static/media/simplop.87b9d623.png": "/dcope-portfolio/static/media/simplop.87b9d623.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a443fa15.js",
-    "static/js/2.db804fa3.chunk.js",
-    "static/css/main.3d9d76ac.chunk.css",
-    "static/js/main.73fa5901.chunk.js"
+    "static/js/runtime-main.b8d17e99.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.b989a351.chunk.js",
+    "static/css/main.1dcf9c4a.chunk.css",
+    "static/js/main.a701f591.chunk.js"
   ]
 }
