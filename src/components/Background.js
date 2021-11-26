@@ -7,7 +7,7 @@ const Background = () => {
       options={{
         background: {
           color: {
-            value: "#020507",
+            value: "#0f0f0f",
           },
         },
         fpsLimit: 60,
@@ -19,7 +19,7 @@ const Background = () => {
             },
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: "attract",
             },
             resize: true,
           },
@@ -36,7 +36,14 @@ const Background = () => {
             repulse: {
               distance: 150,
               duration: 0.5,
-              speed: 0.35,
+            },
+            attract: {
+              distance: 200,
+              duration: 0.4,
+              easing: "ease-out-quad",
+              factor: 1,
+              maxSpeed: 50,
+              speed: 1,
             },
           },
         },

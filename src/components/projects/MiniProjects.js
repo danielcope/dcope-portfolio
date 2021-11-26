@@ -1,6 +1,6 @@
 import React from "react";
 
-import Docs from "../../imgs/docs.png";
+import Docs from "../../imgs/docspage.png";
 import NoDB from "../../imgs/nodb.png";
 
 const MiniProjects = () => {

@@ -184,10 +184,10 @@ a:hover::before {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  background: rgb(20, 44, 71);
+  background: rgb(127, 198, 164);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(24, 53, 87, 0.404);
+  background: rgba(127, 198, 164, 0.445);
 }
 ::-webkit-scrollbar-thumb:active {
   background: #55505c7c;
