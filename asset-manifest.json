@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dcope-portfolio/static/css/main.19f75bf9.chunk.css",
-    "main.js": "/dcope-portfolio/static/js/main.a701f591.chunk.js",
-    "main.js.map": "/dcope-portfolio/static/js/main.a701f591.chunk.js.map",
+    "main.css": "/dcope-portfolio/static/css/main.4c1c895f.chunk.css",
+    "main.js": "/dcope-portfolio/static/js/main.1b70a4bf.chunk.js",
+    "main.js.map": "/dcope-portfolio/static/js/main.1b70a4bf.chunk.js.map",
     "runtime-main.js": "/dcope-portfolio/static/js/runtime-main.b8d17e99.js",
     "runtime-main.js.map": "/dcope-portfolio/static/js/runtime-main.b8d17e99.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/dcope-portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.3d77c669.chunk.js.map": "/dcope-portfolio/static/js/3.3d77c669.chunk.js.map",
     "index.html": "/dcope-portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/dcope-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.19f75bf9.chunk.css.map": "/dcope-portfolio/static/css/main.19f75bf9.chunk.css.map",
+    "static/css/main.4c1c895f.chunk.css.map": "/dcope-portfolio/static/css/main.4c1c895f.chunk.css.map",
     "static/js/2.b989a351.chunk.js.LICENSE.txt": "/dcope-portfolio/static/js/2.b989a351.chunk.js.LICENSE.txt",
     "static/media/App.css": "/dcope-portfolio/static/media/me.bf0e0f1e.jpg",
     "static/media/CSSLogo.9a088dd1.png": "/dcope-portfolio/static/media/CSSLogo.9a088dd1.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.b8d17e99.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.b989a351.chunk.js",
-    "static/css/main.19f75bf9.chunk.css",
-    "static/js/main.a701f591.chunk.js"
+    "static/css/main.4c1c895f.chunk.css",
+    "static/js/main.1b70a4bf.chunk.js"
   ]
 }
