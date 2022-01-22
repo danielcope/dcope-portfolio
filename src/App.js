@@ -1,6 +1,5 @@
 import React from "react";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";

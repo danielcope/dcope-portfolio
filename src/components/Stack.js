@@ -46,10 +46,6 @@ const Stack = () => {
             />
             <h4 data-aos="fade-left">PostgreSQL</h4>
           </div>
-          <div>
-            <img alt="MongoDB Logo" src={MongoDB} data-aos="fade-right" />
-            <h4 data-aos="fade-left">MongoDB</h4>
-          </div>
         </section>
         <section
           className="technologies extras"
